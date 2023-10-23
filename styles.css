@@ -3,18 +3,37 @@
     justify-content: center;
     align-items: center;
     border: 1px solid black;
-    width: 300px;
-    height: 500px;
+    width: 315px;
+    height: 700px;
     background-color: #f5f5f5;
     box-shadow: 10px 10px 5px grey;
+    border-radius: 10px;
     
 }
-.listGeneral{
-    list-style:none;
-    padding: 5px;
+.animalName{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid black;
+    border-style: double;
+    padding: 3px;
+    margin-left: auto;
+    margin-right: auto;
 }
-.listElement{
-    font-style: italic;
+.animalImage{
+    width: 300px;
+    border: 1px solid black;
+    border-style: double;
+    padding: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.textInformation{
+    border: 1px solid black;
+    border-style: double;
+    padding: 5px;
+    margin: 7px;
 }
 .introParagraph{
     text-align: center;
@@ -23,25 +42,16 @@
     display: flex;
     font-style: italic;
 }
+.listGeneral{
+    list-style:none;
+    padding: 5px;
+}
+.listElement{
+    font-style: italic;
+}
 .outroParagraph{
     text-align: center;
-    font-size: 15px;
-    border: 1px solid black;
-    border-style: double;
-    padding: 5px;  
-}
-.animalName{
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    border: 1px solid black;
-    border-style: double;
-    padding: 5px;
-}
-.img{
-    width: 300px;
-    border: 1px solid black;
-    padding: 5px;
+    font-size: 16px; 
 }
 .span{
     font-weight: bold;
